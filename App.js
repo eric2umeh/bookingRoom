@@ -7,7 +7,7 @@ import StackNavigator from "./StackNavigator";
 export default function App() {
   return (
     <>
-      <Provider store={store}>
+      <Provider store={store}> 
         <StackNavigator />
         <ModalPortal />
       </Provider>
